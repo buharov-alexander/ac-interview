@@ -1,9 +1,8 @@
-/***************       BEGIN-STANDARD-COPYRIGHT      ***************
-
- Copyright (c) 2009-2026, Spirent Communications.
-
- All rights reserved. Proprietary and confidential information of Spirent Communications.
- ***************        END-STANDARD-COPYRIGHT       ***************/
+/**
+ * Кэш с фиксированной ёмкостью.
+ * При переполнении вытесняет наименее недавно использованный элемент.
+ * Внутри — HashMap + LinkedList. get и put обновляют порядок использования.
+ */
 package org.bukharov;
 
 import java.util.HashMap;
