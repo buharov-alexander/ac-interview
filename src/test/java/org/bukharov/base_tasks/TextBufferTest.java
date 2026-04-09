@@ -1,10 +1,4 @@
-/***************       BEGIN-STANDARD-COPYRIGHT      ***************
-
- Copyright (c) 2009-2026, Spirent Communications.
-
- All rights reserved. Proprietary and confidential information of Spirent Communications.
- ***************        END-STANDARD-COPYRIGHT       ***************/
-package org.bukharov;
+package org.bukharov.base_tasks;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

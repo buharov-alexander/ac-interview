@@ -3,7 +3,7 @@
  * При переполнении вытесняет наименее недавно использованный элемент.
  * Внутри — HashMap + LinkedList. get и put обновляют порядок использования.
  */
-package org.bukharov;
+package org.bukharov.base_tasks;
 
 import java.util.HashMap;
 import java.util.LinkedList;

@@ -3,7 +3,7 @@
  * append добавляет текст, delete удаляет n последних символов, undo отменяет последнюю операцию.
  * Внутри — String + Stack истории операций.
  */
-package org.bukharov;
+package org.bukharov.base_tasks;
 
 import java.util.LinkedList;
 import java.util.SequencedCollection;
